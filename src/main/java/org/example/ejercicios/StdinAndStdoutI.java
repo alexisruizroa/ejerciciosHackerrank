@@ -7,9 +7,11 @@ public class StdinAndStdoutI {
         Scanner scanner = new Scanner(System.in);
         String myString = scanner.next();
         int myInt = scanner.nextInt();
+        int myNum = scanner.nextInt();
         scanner.close();
 
-        System.out.println("myString is: " + myString);
-        System.out.println("myInt is: " + myInt);
+        System.out.println(myString);
+        System.out.println(myInt);
+        System.out.println(myNum);
     }
 }
